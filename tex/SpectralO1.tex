@@ -33,16 +33,13 @@
 \newcommand{\rKM}{\rho_{\mathrm{KM}}}
 
 % -- metadata ------------------------------------------------------------------
-\title{Projective Resolution Dynamics\\
-on Variable-Valence Relaxation Graphs}
+\title{Projective Resolution Dynamics on Variable-Valence Relaxation Graphs}
 
 \author{J\'er\^ome Beau}
 
 \date{\today}
 
-% ==============================================================================
 \begin{document}
-% ==============================================================================
 
   \maketitle
 
@@ -65,18 +62,26 @@ on Variable-Valence Relaxation Graphs}
     here and is left to subsequent work combining the present mechanism with the
     hierarchical cascade or sub-linear energy-rank structures identified in the
     companion paper.
+
+    \medskip
+    \noindent\textbf{Keywords:}
+    projective resolution, relaxation graphs, Ramanujan graphs, LPS graphs,
+Kesten--McKay law, spectral gap, Cheeger inequality, variable valence,
+spectral stratigraphy, mass hierarchy
   \end{abstract}
 
-% ------------------------------------------------------------------------------
+  \clearpage
+  \tableofcontents
+
+  \clearpage
   \section{Introduction}
     \label{sec:intro}
-% ------------------------------------------------------------------------------
 
     \subsection{Context and motivation}
       \label{subsec:context}
 
-      The admissibility sub-programme of the Bounded Admissibility Theory
-      (BAT)~\cite{cosmochrony} aims to derive the number and mass hierarchy of
+      The admissibility sub-programme of Cosmochrony~\cite{cosmochrony} aims to
+      derive the number and mass hierarchy of
       particle generations from purely spectral and relational data.
       The programme proceeds through a sequence of companion papers, each
       establishing one structural layer: spectral admissibility~\cite{admissibility},
@@ -188,14 +193,13 @@ on Variable-Valence Relaxation Graphs}
       corrects the fixed-valence inversion.
       Section~\ref{sec:amplitude} analyses the amplitude problem, establishing what
       is resolved and what remains open.
-      Section~\ref{sec:physical} provides the physical interpretation in the BAT
+      Section~\ref{sec:physical} provides the physical interpretation in the Cosmochrony
       framework.
       Section~\ref{sec:conclusion} states the conclusions and open directions.
 
-% ------------------------------------------------------------------------------
   \section{Background: Projective Resolution and the Relaxation Cascade}
     \label{sec:background}
-% ------------------------------------------------------------------------------
+
 
     We collect the definitions and results from the admissibility sub-programme
     that are used throughout this paper.
@@ -307,10 +311,9 @@ on Variable-Valence Relaxation Graphs}
       symmetrically on either side, at respective distances $1/6$ and $1/4$ from
       the midpoint.
 
-% ------------------------------------------------------------------------------
   \section{Asymptotic Saturation at Fixed Valence: What Relaxation Established}
     \label{sec:saturation}
-% ------------------------------------------------------------------------------
+
 
     We summarise the results of~\cite{relaxation} that motivate the present paper.
     The goal is not to repeat proofs but to isolate which structural feature causes
@@ -377,10 +380,8 @@ on Variable-Valence Relaxation Graphs}
     Allowing $p$ to grow with $n$ is therefore the minimal structural modification
     needed to restore a non-trivial dynamics for $\Lproj(n)$.
 
-% ------------------------------------------------------------------------------
   \section{Variable-Valence LPS Graphs: the $p(n)$ Regime}
   \label{sec:variable_valence}
-% ------------------------------------------------------------------------------
 
   \subsection{Definition of the variable-valence family}
     \label{subsec:family}
@@ -438,7 +439,7 @@ on Variable-Valence Relaxation Graphs}
 
     \begin{figure}[ht]
       \centering
-      \includegraphics[width=0.82\textwidth]{O1_fig2_KM_width}
+      \includegraphics[width=0.82\textwidth]{O1_fig2_KM_width.pdf}
       \caption{Kesten--McKay window width $\widthKM(p) = 4\sqrt{p}/(p+1)$ as a
       function of the LPS prime $p$ (solid blue), together with the asymptotic
       rate $4/\sqrt{p}$ (dashed red) and the admissible primes
@@ -519,7 +520,7 @@ on Variable-Valence Relaxation Graphs}
 
     \begin{figure}[ht]
       \centering
-      \includegraphics[width=0.88\textwidth]{O1_fig1_KM_contraction}
+      \includegraphics[width=0.88\textwidth]{O1_fig1_KM_contraction.pdf}
       \caption{Kesten--McKay support contraction and ADE level exit order for the
         $2I$ group (ord-5 generating set, $|S|=24$).
         The shaded band is the Kesten--McKay support
@@ -550,7 +551,7 @@ on Variable-Valence Relaxation Graphs}
 
     \begin{figure}[ht]
       \centering
-      \includegraphics[width=0.82\textwidth]{O1_fig3_stab_ranks}
+      \includegraphics[width=0.82\textwidth]{O1_fig3_stab_ranks.pdf}
       \caption{Stabilisation ranks $n_3 < n_1$ under three representative growth
       laws $p(n) \sim n^{1/2}$ (slow, solid blue), $p(n) \sim n$ (linear,
         dashed orange), and $p(n) \sim n^{3/2}$ (fast, dash-dot green), plotted
@@ -601,17 +602,16 @@ on Variable-Valence Relaxation Graphs}
     \end{proof}
 
     \begin{remark}[Physical interpretation]
-  In the BAT framework, $p(n) \to \infty$ corresponds to an increase of the
+  In the Cosmochrony framework, $p(n) \to \infty$ corresponds to an increase of the
   effective relational valence of the substrate along the cascade.
   Corollary~\ref{cor:dynamics} shows that this is the minimal structural
   condition preventing the relaxation cascade from freezing into a spectrally
   stationary regime.
     \end{remark}
 
-% ------------------------------------------------------------------------------
   \section{Effective Mass Ordering Restoration}
   \label{sec:mass_ordering}
-% ------------------------------------------------------------------------------
+
 
   We derive the effective mass ordering implied by the ADE exit order of
   Theorem~\ref{thm:exit_order} and show that it corrects the inversion
@@ -690,10 +690,9 @@ on Variable-Valence Relaxation Graphs}
       law $p(n)$.
     \end{remark}
 
-% ------------------------------------------------------------------------------
   \section{Amplitude Problem: Partial Resolution and Residual Gap}
   \label{sec:amplitude}
-% ------------------------------------------------------------------------------
+
 
   Having shown that the variable-valence regime corrects the effective mass
   ordering inversion, we examine how much of the amplitude problem it resolves
@@ -751,15 +750,13 @@ on Variable-Valence Relaxation Graphs}
       the structural obstruction to closing it is removed.
     \end{remark}
 
-% ------------------------------------------------------------------------------
-  \section{Physical Interpretation in the BAT Framework}
+  \section{Physical Interpretation in the Cosmochrony Framework}
   \label{sec:physical}
-% ------------------------------------------------------------------------------
 
   \subsection{Relational valence and the cascade}
     \label{subsec:valence_cascade}
 
-    In the BAT framework~\cite{cosmochrony}, the relaxation graph $G_n$ encodes
+    In the Cosmochrony framework~\cite{cosmochrony}, the relaxation graph $G_n$ encodes
     the relational connectivity of the substrate at cascade depth $n$.
     The valence $d(n) = p(n) + 1$ measures the degree of connectivity at that
     depth.
@@ -812,10 +809,9 @@ on Variable-Valence Relaxation Graphs}
     The LPS family is used here because it provides an explicit, analytically
     tractable realisation.
 
-% ------------------------------------------------------------------------------
   \section{Conclusion}
   \label{sec:conclusion}
-% ------------------------------------------------------------------------------
+
 
   This paper revisits the saturation mechanism identified in~\cite{relaxation}
   and shows that it is not a fundamental property of the relational substrate
@@ -883,10 +879,7 @@ on Variable-Valence Relaxation Graphs}
       in~\eqref{eq:cheeger} in the variable-valence regime could strengthen the
       dynamical interpretation of $\Lproj(n)$ and remains an open problem.
 
-% ------------------------------------------------------------------------------
-% Bibliography
-% ------------------------------------------------------------------------------
-
+      \clearpage
       \begin{thebibliography}{99}
 
         \bibitem{cosmochrony}
