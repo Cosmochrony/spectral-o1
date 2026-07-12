@@ -1,5 +1,5 @@
 This repository contains the source of the **O1** Cosmochrony paper  
-[*Projective Resolution Dynamics on Variable-Valence Relaxation Graphs*](out/SpectralO1.pdf).
+*Projective Resolution Dynamics on Variable-Valence Relaxation Graphs*.
 
 This work extends the **spectral relaxation programme** by showing that the
 asymptotic saturation of the projective resolution found in the fixed-valence
